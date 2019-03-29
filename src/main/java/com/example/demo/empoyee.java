@@ -1,7 +1,7 @@
 package com.example.demo;
 
 public class empoyee {
-	private int age;
+	private int age;//年龄
 	private int empid;
 	private int gender;//性别
 	private int dept;
