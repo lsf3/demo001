@@ -3,7 +3,7 @@ package com.example.demo;
 public class empoyee {
 	private int age;
 	private int empid;
-	private int gender;
+	private int gender;//性别
 	private int dept;
 	private int phoneNumber;
 	private String name;
@@ -79,7 +79,7 @@ public class empoyee {
 		this.habby = habby;
 	}
 	
-	//哈希算法
+	//重写哈希算法
 	@Override
 	public int hashCode() {
 		final int prime = 31;
