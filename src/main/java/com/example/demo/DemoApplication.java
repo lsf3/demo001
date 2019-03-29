@@ -10,6 +10,7 @@ public class DemoApplication {
 		System.out.println("=======ready======");
 		System.out.println("============start============");
 		SpringApplication.run(DemoApplication.class, args);
+		System.out.println("sf001");
 	}
 
 }
