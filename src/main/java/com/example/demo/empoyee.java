@@ -11,7 +11,7 @@ public class empoyee {
 	private String habby;
 	public empoyee() {
 		super();
-		// TODO Auto-generated constructor stub
+		//无参构造
 	}
 	public empoyee(int age, int empid, int gender, int dept, int phoneNumber, String name, String address,
 			String habby) {
