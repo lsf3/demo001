@@ -18,14 +18,14 @@ public class empoyee {
 		super();
 		this.age = age;
 		this.empid = empid;
-		this.gender = gender;
+		this.gender = gender;//男女
 		this.dept = dept;
 		this.phoneNumber = phoneNumber;
 		this.name = name;
 		this.address = address;
 		this.habby = habby;
 	}
-	@Override
+
 	public String toString() {
 		return "empoyee [age=" + age + ", empid=" + empid + ", gender=" + gender + ", dept=" + dept + ", phoneNumber="
 				+ phoneNumber + ", name=" + name + ", address=" + address + ", habby=" + habby + "]";
@@ -79,7 +79,7 @@ public class empoyee {
 		this.habby = habby;
 	}
 	
-	//哈希
+	//哈希算法
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -94,7 +94,7 @@ public class empoyee {
 		result = prime * result + phoneNumber;
 		return result;
 	}
-	@Override
+
 	public boolean equals(Object obj) {
 		if (this == obj)
 			return true;
